@@ -34,3 +34,12 @@
 .b-color{
     background-color: rgb(64, 41, 22) !important ;
 }
+
+img {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 90%;
+  max-height: 90%;
+}
