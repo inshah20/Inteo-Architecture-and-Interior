@@ -1,6 +1,13 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
 * {
-    margin: 0;
-    padding: 0 !important;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 /* .bg-color{
@@ -26,6 +33,7 @@
     background-image: url(images/hero\ section.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .fh-c{
@@ -35,11 +43,11 @@
     background-color: rgb(64, 41, 22) !important ;
 }
 
-img {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  max-width: 90%;
-  max-height: 90%;
+.color{
+    color: rgb(88, 58, 33) !important ;
+}
+
+.bg-colors {
+    background-color: rgb(230, 205, 188);
+    height: 900px;
 }
