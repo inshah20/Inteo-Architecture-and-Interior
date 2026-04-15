@@ -24,7 +24,7 @@ html, body {
 
 
 .bg-color {
-    background-color: rgb(207, 184, 168);
+    background-color: rgb(247, 212, 185);
 }
 
 .bg-image {
@@ -47,7 +47,6 @@ html, body {
     color: rgb(88, 58, 33) !important ;
 }
 
-.bg-colors {
-    background-color: rgb(230, 205, 188);
-    height: 900px;
+.bg-colors{
+    background-color:rgb(247, 212, 185) !important  ;
 }
