@@ -50,3 +50,15 @@ html, body {
 .bg-colors{
     background-color:rgb(247, 212, 185) !important  ;
 }
+
+.bg-c{
+    /* background-color: rgb(254, 234, 219); */
+    background-color: bisque;
+    height: 170vh;
+}
+
+@media (max-width: 768px) {
+  .bg-c {
+    height: 250vh;
+  }
+}
