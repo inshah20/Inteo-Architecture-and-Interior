@@ -62,3 +62,16 @@ html, body {
     height: 250vh;
   }
 }
+
+.pic{
+    width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 576px) {
+  .pic {
+    width: 100%;
+    height: auto;
+  }
+}
